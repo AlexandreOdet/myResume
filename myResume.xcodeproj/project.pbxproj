@@ -76,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5251C931249BA3FD009F17B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52F251682473F0250007F9E8 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		52F251582473F0250007F9E8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +107,9 @@
 		52F251632473F0250007F9E8 /* myResume */ = {
 			isa = PBXGroup;
 			children = (
+				5251C931249BA3FD009F17B7 /* Views */,
 				52F251642473F0250007F9E8 /* AppDelegate.swift */,
 				52F251662473F0250007F9E8 /* SceneDelegate.swift */,
-				52F251682473F0250007F9E8 /* ContentView.swift */,
 				52F2516A2473F0260007F9E8 /* Assets.xcassets */,
 				52F2516F2473F0260007F9E8 /* LaunchScreen.storyboard */,
 				52F251722473F0260007F9E8 /* Info.plist */,
