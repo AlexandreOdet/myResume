@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5251C933249F8236009F17B7 /* ProjectViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251C932249F8236009F17B7 /* ProjectViews.swift */; };
+		525BB18524A21A8200035D99 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525BB18424A21A8200035D99 /* Project.swift */; };
+		525BB18824A21AE100035D99 /* ProjectsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525BB18724A21AE100035D99 /* ProjectsManager.swift */; };
 		52F251652473F0250007F9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F251642473F0250007F9E8 /* AppDelegate.swift */; };
 		52F251672473F0250007F9E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F251662473F0250007F9E8 /* SceneDelegate.swift */; };
 		52F251692473F0250007F9E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F251682473F0250007F9E8 /* ContentView.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5251C932249F8236009F17B7 /* ProjectViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViews.swift; sourceTree = "<group>"; };
+		525BB18424A21A8200035D99 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		525BB18724A21AE100035D99 /* ProjectsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsManager.swift; sourceTree = "<group>"; };
 		52F251612473F0250007F9E8 /* myResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F251642473F0250007F9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52F251662473F0250007F9E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,8 +86,25 @@
 			isa = PBXGroup;
 			children = (
 				52F251682473F0250007F9E8 /* ContentView.swift */,
+				5251C932249F8236009F17B7 /* ProjectViews.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		525BB18324A21A7300035D99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				525BB18424A21A8200035D99 /* Project.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		525BB18624A21AD300035D99 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				525BB18724A21AE100035D99 /* ProjectsManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		52F251582473F0250007F9E8 = {
@@ -107,6 +130,8 @@
 		52F251632473F0250007F9E8 /* myResume */ = {
 			isa = PBXGroup;
 			children = (
+				525BB18624A21AD300035D99 /* Manager */,
+				525BB18324A21A7300035D99 /* Models */,
 				5251C931249BA3FD009F17B7 /* Views */,
 				52F251642473F0250007F9E8 /* AppDelegate.swift */,
 				52F251662473F0250007F9E8 /* SceneDelegate.swift */,
@@ -277,7 +302,10 @@
 			files = (
 				52F251652473F0250007F9E8 /* AppDelegate.swift in Sources */,
 				52F251672473F0250007F9E8 /* SceneDelegate.swift in Sources */,
+				5251C933249F8236009F17B7 /* ProjectViews.swift in Sources */,
+				525BB18524A21A8200035D99 /* Project.swift in Sources */,
 				52F251692473F0250007F9E8 /* ContentView.swift in Sources */,
+				525BB18824A21AE100035D99 /* ProjectsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

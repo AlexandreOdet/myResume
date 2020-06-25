@@ -20,6 +20,7 @@ struct HomeView: View {
             Divider()
                     Button(action: {
                         print("Button")
+                        ProjectView()
                     }) {
                         Text("My Projects")
             }
